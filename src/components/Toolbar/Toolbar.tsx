@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Content() {
+function Toolbar() {
 	return <></>
 }
 
-export default Content
+export default Toolbar
