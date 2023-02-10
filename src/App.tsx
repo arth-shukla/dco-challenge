@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.scss'
-import { Content, Sidebar, Toolbar, ContactLinks } from './components'
+import { ContactLinks, Content, Infobar, Sidebar } from './components'
 import { Row, Col } from 'react-bootstrap'
 
 function App() {
@@ -29,8 +29,7 @@ function App() {
 					md={12}
 					lg={3}
 				>
-					<Toolbar />
-					text
+					<Infobar />
 				</Col>
 			</Row>
 			<footer>

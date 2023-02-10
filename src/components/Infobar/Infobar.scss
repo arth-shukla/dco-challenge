@@ -1,8 +1,8 @@
 @use './../../variables' as v;
 
-.sidebar-box {
+.info-bar {
 	background-color: v.$spec-light-blue;
 	width: calc(100% - 2 * v.$item-margin);
-	height: clamp(30px, 4vw, 50px);
+	min-height: 50px;
 	margin: v.$item-margin;
 }
