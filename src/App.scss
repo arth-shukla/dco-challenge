@@ -23,11 +23,8 @@ footer {
 	position: absolute;
 	bottom: 0;
 	width: calc(100% - 2 * #{v.$item-margin});
-	// height: 6rem;
 
-	// display: flex;
-	// justify-content: center;
-	// align-items: center;
+	font-size: 0.9em;
 }
 
 .main-content {
