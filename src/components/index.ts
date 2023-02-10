@@ -1,3 +1,4 @@
+export { default as ContactLinks } from './ContactLinks'
 export { default as Content } from './Content'
 export { default as Sidebar } from './Sidebar'
 export { default as Toolbar } from './Toolbar'

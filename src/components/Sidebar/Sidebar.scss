@@ -1,0 +1,8 @@
+@use './../../variables' as v;
+
+.sidebar-box {
+	background-color: v.$spec-light-blue;
+	width: calc(100% - 2 * v.$item-margin);
+	min-height: 50px;
+	margin: v.$item-margin;
+}
