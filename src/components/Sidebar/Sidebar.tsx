@@ -1,4 +1,6 @@
 import React from 'react'
+import AutoResize from '../AutoResize'
+
 import './Sidebar.scss'
 
 interface SidebarProps {
@@ -7,7 +9,12 @@ interface SidebarProps {
 
 function Sidebar({ numBoxes }: SidebarProps) {
 	return (
-		<div className='sidebar'>
+		<AutoResize
+			className='sidebar'
+			xs={12}
+			sm={3}
+			md={3}
+		>
 			{Array(numBoxes)
 				.fill(0)
 				.map(i => (
@@ -16,7 +23,7 @@ function Sidebar({ numBoxes }: SidebarProps) {
 						className='sidebar-box'
 					/>
 				))}
-		</div>
+		</AutoResize>
 	)
 }
 

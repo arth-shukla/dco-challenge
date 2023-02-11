@@ -1,0 +1,17 @@
+@use './../../variables' as v;
+
+.auto-resize {
+	flex-basis: var(--auto-resize-xs);
+	@media screen and (min-width: v.$sm) {
+		flex-basis: var(--auto-resize-sm);
+	}
+	@media screen and (min-width: v.$md) {
+		flex-basis: var(--auto-resize-md);
+	}
+	@media screen and (min-width: v.$lg) {
+		flex-basis: var(--auto-resize-lg);
+	}
+	@media screen and (min-width: v.$xl) {
+		flex-basis: var(--auto-resize-xl);
+	}
+}

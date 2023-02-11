@@ -1,3 +1,4 @@
+export { default as AutoResize } from './AutoResize'
 export { default as ContactLinks } from './ContactLinks'
 export { default as Content } from './Content'
 export { default as Infobar } from './Infobar'
