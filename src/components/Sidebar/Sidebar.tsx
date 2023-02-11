@@ -16,9 +16,9 @@ function Sidebar({ numBoxes }: SidebarProps) {
 		>
 			{Array(numBoxes)
 				.fill(0)
-				.map(i => (
+				.map((v, k) => (
 					<div
-						key={`sidebar_box_${i}`}
+						key={`sidebar_box_${k}`}
 						className='sidebar-box'
 					/>
 				))}
