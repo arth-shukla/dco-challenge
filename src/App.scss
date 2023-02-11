@@ -40,39 +40,6 @@
 		@media screen and (max-width: v.$sm) {
 			flex: 0 0 auto;
 		}
-		// .sidebar {
-		// 	flex: 0 0 25%;
-		// }
-		.content {
-			flex: 0 0 50%;
-		}
-		.infobar {
-			flex: 0 0 25%;
-		}
-
-		@media screen and (max-width: v.$md) {
-			// .sidebar {
-			// 	flex: 0 0 25%;
-			// }
-			.content {
-				flex: 0 0 75%;
-			}
-			.infobar {
-				flex: 0 0 100%;
-			}
-		}
-
-		@media screen and (max-width: v.$sm) {
-			// .sidebar {
-			// 	flex: 0 0 100%;
-			// }
-			.content {
-				flex: 0 0 100%;
-			}
-			.infobar {
-				flex: 0 0 100%;
-			}
-		}
 	}
 
 	footer {

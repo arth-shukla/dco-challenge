@@ -1,6 +1,5 @@
 import React from 'react'
 import AutoResize from '../AutoResize'
-
 import './Sidebar.scss'
 
 interface SidebarProps {
