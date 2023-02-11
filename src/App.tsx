@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './App.scss'
 import { ContactLinks, Content, Infobar, Sidebar } from './components'
 
-import lolLookAtHim from './assets/He_Drinkin.jpg'
-
 function App() {
 	// ----------------------------------------------------
 	// NOTE: A similar thing can be acheived in CSS via the following:
@@ -31,7 +29,7 @@ function App() {
 				<Sidebar numBoxes={4} />
 				<Content>
 					<img
-						src={lolLookAtHim}
+						src='https://i.imgur.com/JTcaDz2.jpeg'
 						alt='He drinkin CHUG CHUG CHUG'
 						width='100%'
 					/>
