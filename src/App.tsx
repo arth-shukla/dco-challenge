@@ -10,8 +10,11 @@ function App() {
 	//     with mobile/tablet versions of Safari
 	// ----------------------------------------------------
 	const [winHeight, setWinHeight] = useState<number>(window.innerHeight)
+	const handleResize = () => {
+		setWinHeight(Math.max(window.innerHeight, 750))
+	}
 	useEffect(() => {
-		window.addEventListener('resize', setWinHeight.bind(undefined, window.innerHeight), { passive: true })
+		window.addEventListener('resize', handleResize, { passive: true })
 	}, [])
 
 	return (
