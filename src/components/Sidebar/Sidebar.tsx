@@ -12,7 +12,7 @@ function Sidebar({ numBoxes }: SidebarProps) {
 			className='sidebar'
 			xs={12}
 			sm={3}
-			md={3}
+			lg={3}
 		>
 			{Array(numBoxes)
 				.fill(0)

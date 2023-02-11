@@ -8,7 +8,7 @@ function Content({ children, ...rest }: any) {
 			className='content'
 			xs={12}
 			sm={9}
-			md={6}
+			lg={6}
 		>
 			<div
 				className='content-child'
