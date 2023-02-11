@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/dco-challenge/static/css/main.bd9f3731.css",
-    "main.js": "/dco-challenge/static/js/main.70dcec12.js",
+    "main.js": "/dco-challenge/static/js/main.b14eeb9d.js",
     "static/js/787.0c4534b0.chunk.js": "/dco-challenge/static/js/787.0c4534b0.chunk.js",
-    "static/media/He_Drinkin.jpg": "/dco-challenge/static/media/He_Drinkin.cc27295901c09bc61d95.jpg",
     "index.html": "/dco-challenge/index.html",
     "main.bd9f3731.css.map": "/dco-challenge/static/css/main.bd9f3731.css.map",
-    "main.70dcec12.js.map": "/dco-challenge/static/js/main.70dcec12.js.map",
+    "main.b14eeb9d.js.map": "/dco-challenge/static/js/main.b14eeb9d.js.map",
     "787.0c4534b0.chunk.js.map": "/dco-challenge/static/js/787.0c4534b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd9f3731.css",
-    "static/js/main.70dcec12.js"
+    "static/js/main.b14eeb9d.js"
   ]
 }
