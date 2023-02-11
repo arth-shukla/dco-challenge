@@ -8,5 +8,9 @@
 		width: calc(100% - 2 * v.$site-margin);
 		min-height: 50px;
 		margin: v.$site-margin;
+
+		@media screen and (max-width: v.$md) {
+			min-height: 130px;
+		}
 	}
 }
