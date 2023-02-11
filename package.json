@@ -11,6 +11,7 @@
 		"@types/react": "^18.0.27",
 		"@types/react-dom": "^18.0.10",
 		"boostrap": "^2.0.0",
+		"gh-pages": "^5.0.0",
 		"react": "^18.2.0",
 		"react-bootstrap": "^2.7.1",
 		"react-dom": "^18.2.0",
@@ -21,7 +22,11 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"full-deploy": "npm run prettier && npm run deploy && git add -A && git commit -m \"full-deploy\"",
 		"prettier": "prettier src --write",
+		"deploy-commit": "npm run deploy && git add --all && git commit -m \"deploy-commit\"",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
