@@ -1,8 +1,12 @@
 @use './../../variables' as v;
 
-.info-bar {
-	background-color: v.$spec-light-blue;
-	width: calc(100% - 2 * v.$item-margin);
-	min-height: 50px;
-	margin: v.$item-margin;
+.infobar {
+	display: flex;
+	align-items: stretch;
+	.infobar-child {
+		background-color: v.$spec-light-blue;
+		width: calc(100% - 2 * v.$site-margin);
+		min-height: 50px;
+		margin: v.$site-margin;
+	}
 }

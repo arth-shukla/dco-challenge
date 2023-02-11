@@ -7,7 +7,7 @@ interface SidebarProps {
 
 function Sidebar({ numBoxes }: SidebarProps) {
 	return (
-		<>
+		<div className='sidebar'>
 			{Array(numBoxes)
 				.fill(0)
 				.map(i => (
@@ -16,7 +16,7 @@ function Sidebar({ numBoxes }: SidebarProps) {
 						className='sidebar-box'
 					/>
 				))}
-		</>
+		</div>
 	)
 }
 

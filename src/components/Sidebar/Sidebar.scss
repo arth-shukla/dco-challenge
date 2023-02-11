@@ -1,8 +1,10 @@
 @use './../../variables' as v;
 
-.sidebar-box {
-	background-color: v.$spec-light-blue;
-	width: calc(100% - 2 * v.$item-margin);
-	height: clamp(30px, 4vw, 50px);
-	margin: v.$item-margin;
+.sidebar {
+	.sidebar-box {
+		background-color: v.$spec-light-blue;
+		width: calc(100% - 2 * v.$site-margin);
+		height: clamp(30px, 4vw, 50px);
+		margin: v.$site-margin;
+	}
 }
