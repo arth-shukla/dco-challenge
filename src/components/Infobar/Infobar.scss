@@ -9,7 +9,7 @@
 		min-height: 50px;
 		margin: v.$site-margin;
 
-		@media screen and (max-width: v.$md) {
+		@media screen and (max-width: v.$lg) {
 			min-height: 130px;
 		}
 	}

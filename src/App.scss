@@ -38,7 +38,7 @@
 		}
 
 		align-content: stretch;
-		@media screen and (max-width: v.$md) {
+		@media screen and (max-width: v.$lg) {
 			align-content: space-between;
 		}
 	}
