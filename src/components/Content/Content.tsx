@@ -2,7 +2,7 @@ import React from 'react'
 import AutoResize from '../AutoResize'
 import './Content.scss'
 
-function Content(props: any) {
+function Content({ children, ...rest }: any) {
 	return (
 		<AutoResize
 			className='content'
@@ -10,7 +10,12 @@ function Content(props: any) {
 			sm={9}
 			md={6}
 		>
-			<div className='content-child'>{props.children}</div>
+			<div
+				className='content-child'
+				{...rest}
+			>
+				{children}
+			</div>
 		</AutoResize>
 	)
 }

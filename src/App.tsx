@@ -27,11 +27,12 @@ function App() {
 			</header>
 			<div className='main-content'>
 				<Sidebar numBoxes={4} />
-				<Content>
+				<Content style={{ display: 'flex', justifyContent: 'center' }}>
 					<img
 						src='https://i.imgur.com/JTcaDz2.jpeg'
 						alt='He drinkin CHUG CHUG CHUG'
-						width='100%'
+						width='400px'
+						style={{ maxWidth: '100%' }}
 					/>
 				</Content>
 				<Infobar />
