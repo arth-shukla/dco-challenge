@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './App.scss'
 import { ContactLinks, Content, Infobar, Sidebar } from './components'
 
+import lolLookAtHim from './assets/He_Drinkin.jpg'
+
 function App() {
 	// ----------------------------------------------------
 	// NOTE: A similar thing can be acheived in CSS via the following:
@@ -11,7 +13,7 @@ function App() {
 	// ----------------------------------------------------
 	const [winHeight, setWinHeight] = useState<number>(window.innerHeight)
 	const handleResize = () => {
-		setWinHeight(Math.max(window.innerHeight, 750))
+		setWinHeight(window.innerHeight)
 	}
 	useEffect(() => {
 		window.addEventListener('resize', handleResize, { passive: true })
@@ -28,8 +30,11 @@ function App() {
 			<div className='main-content'>
 				<Sidebar numBoxes={4} />
 				<Content>
-					{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> */}
+					<img
+						src={lolLookAtHim}
+						alt='He drinkin CHUG CHUG CHUG'
+						width='100%'
+					/>
 				</Content>
 				<Infobar />
 			</div>
