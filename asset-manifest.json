@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2fffb26.css",
-    "main.js": "/static/js/main.b4577454.js",
-    "static/js/787.0c4534b0.chunk.js": "/static/js/787.0c4534b0.chunk.js",
-    "index.html": "/index.html",
-    "main.d2fffb26.css.map": "/static/css/main.d2fffb26.css.map",
-    "main.b4577454.js.map": "/static/js/main.b4577454.js.map",
-    "787.0c4534b0.chunk.js.map": "/static/js/787.0c4534b0.chunk.js.map"
+    "main.css": "/dco-challenge/static/css/main.d2fffb26.css",
+    "main.js": "/dco-challenge/static/js/main.fd73e7ee.js",
+    "static/js/787.0c4534b0.chunk.js": "/dco-challenge/static/js/787.0c4534b0.chunk.js",
+    "index.html": "/dco-challenge/index.html",
+    "main.d2fffb26.css.map": "/dco-challenge/static/css/main.d2fffb26.css.map",
+    "main.fd73e7ee.js.map": "/dco-challenge/static/js/main.fd73e7ee.js.map",
+    "787.0c4534b0.chunk.js.map": "/dco-challenge/static/js/787.0c4534b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2fffb26.css",
-    "static/js/main.b4577454.js"
+    "static/js/main.fd73e7ee.js"
   ]
 }
