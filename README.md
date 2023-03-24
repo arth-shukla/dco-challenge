@@ -17,3 +17,7 @@ This can come with other issues, e.g. with mobile browsers that have other built
 While the `AutoResize` component could be acheived using React Bootstrap's own `Row` and `Col` components, I figured that's sort of cheating, so I made the AutoResize component instead.
 
 It works about the same as Bootstrap's implementation, though it's slightly less user-friendly since it uses variables from `_variables.scss`. This can be easily fixed by hardcoding the `xs`, `sm`, etc values, but I chose not to here for the sake of consistency.
+
+# About Me
+
+Arth Shukla [Site](https://arth.website) | [GitHub](https://github.com/arth-shukla) | [LinkedIn](https://www.linkedin.com/in/arth-shukla/)
